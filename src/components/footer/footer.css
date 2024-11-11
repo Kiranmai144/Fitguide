@@ -1,0 +1,26 @@
+.footer {
+margin-top: 9rem;
+background-color: var(--light-orange);
+padding-block: 3rem; }
+    .footer__copyright {
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse; }
+    @media (max-width: 47.9875em) { 
+    .footer__copyright {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3rem; } }  
+        .footer__logo {
+        display: inline-block;
+        width: 12rem; }
+            .footer__img {
+            display: block;
+            width: 100%;
+            height: auto; }
+        .footer__copyright-owner {
+        color: var(--dark-black);
+        text-decoration: underline; }

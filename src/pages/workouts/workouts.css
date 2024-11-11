@@ -1,0 +1,6 @@
+.workouts__bodies {
+display: flex;
+gap: 2rem;
+justify-content: center;
+flex-wrap: wrap; 
+margin-top: 7rem; }

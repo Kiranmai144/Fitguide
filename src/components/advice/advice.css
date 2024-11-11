@@ -1,0 +1,20 @@
+.advice{
+margin-top: 3rem;
+max-width: 90rem; }
+    .advice__container {
+    display: flex;
+    gap: 2rem; }
+    .advice__container:not(:first-child) {
+    margin-top: 2rem; }
+        .advice__number {
+        width: 3rem;
+        height: 3rem;
+        background-color: var(--light-orange);
+        display: grid;
+        place-items: center; }
+        .advice__content {
+        flex: 1; }
+            .advice__subtitle {
+            margin-top: 0.75rem; }
+            .advice__para {
+            text-align: justify; }

@@ -1,0 +1,7 @@
+.about {
+margin-top: 7rem;
+text-align: justify; }
+    .about__para:not(:first-of-type) {
+    margin-top: 2rem; }
+        .about__para span {
+        font-weight: 500; }

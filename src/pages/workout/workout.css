@@ -1,0 +1,28 @@
+.workout-detail {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 2rem;
+margin-top: 7rem; }
+    .workout-detail__image {
+    max-width: 60rem; }
+    .workout-detail__details {
+    flex: 1; }
+        .workout-detail__detail {
+        display: flex;
+        gap: 2rem; }
+        .workout-detail__detail:not(:first-child) {
+        margin-top: 2rem; }
+        .workout-detail__icon {
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        width: 3rem;
+        height: 3rem;
+        background-color: var(--light-orange); }
+        .workout-detail__content {
+        min-width: 35rem;
+        margin-top: 0.75rem;
+        text-align: justify; }
+                .workout-detail__span {
+                font-weight: 500; }

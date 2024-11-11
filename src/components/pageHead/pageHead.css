@@ -1,0 +1,30 @@
+.pageHead {
+min-height: 30rem;
+background-color: var(--dark-orange);
+-webkit-clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+background-image: url("../../assets/landing.webp");
+background-size: cover;
+background-position: center;
+position: relative; }
+    .pageHead__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-orange);
+    opacity: 80%; }
+    .pageHead__content {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; }
+        .pageHead__heading {
+        color: var(--white); }
+        .pageHead__para {
+        color: var(--white);
+        font-size: 1.8rem;
+        margin-bottom: 3rem; }
